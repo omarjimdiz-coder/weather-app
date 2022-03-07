@@ -1,0 +1,7 @@
+.weather{
+    display: flex;
+    padding: 3rem;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}

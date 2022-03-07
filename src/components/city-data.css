@@ -1,0 +1,38 @@
+.datos-generales{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border: #000000 solid transparent;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    background-color: rgba(51, 87, 121, 1);
+}
+
+.datas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.city, .celsius, .others{
+    margin-bottom: 0.5rem;
+}
+
+.city{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.city img{
+    width: 7rem;
+}
+
+.others p{
+    padding: 0.5rem;
+}
