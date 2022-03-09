@@ -26,11 +26,8 @@ const CityDatas = ({name, showDatas}) => {
             }
         });
 
-        setDatos(datas[0]);
-       
+        setDatos(datas[0]);       
     }
-
-   
 
     return (
         <article onClick={ () => showDatas(datos.lat, datos.lon)} className='datos-generales'>

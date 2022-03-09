@@ -5,3 +5,8 @@
     width: 100%;
     justify-content: space-between;
 }
+.choose{
+    background-color: rgba(51, 87, 121, 1);
+    padding: 1rem;
+    border-radius: 10px;
+}
